@@ -4,6 +4,7 @@
   "description": "A simple Node.js project that uses MySQL , Express and Handlebars to handle file uploads and persist the data in a database.",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
