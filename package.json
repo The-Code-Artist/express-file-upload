@@ -1,0 +1,35 @@
+{
+  "name": "express-file-upload",
+  "version": "1.0.0",
+  "description": "A simple Node.js project that uses MySQL , Express and Handlebars to handle file uploads and persist the data in a database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Code-Artist/express-file-upload.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "handlebars",
+    "mysql",
+    "javascript"
+  ],
+  "author": "Marothi Mahlake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Code-Artist/express-file-upload/issues"
+  },
+  "homepage": "https://github.com/The-Code-Artist/express-file-upload#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-handlebars": "^5.3.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
