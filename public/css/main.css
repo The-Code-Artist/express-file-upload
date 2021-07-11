@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  background-color: #fafafa;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  /*background-color: #FFF;*/
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  place-items: center;
+  height: 100vh;
+  width: 400px;
+}
+
+.btn {
+  border: none;
+  color: #FFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.btn-primary {
+  background-color: #008CBA;
+}
+
+.card {
+  background-color: #FFF;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 2px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card-img {
+  display: block;
+  margin: 0.4rem auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 2px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 2px 6px rgba(0, 0, 0, 0.1);
+  border: 3px solid white;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-job-title {
+  color: #6E8192;
+}
+/*# sourceMappingURL=main.css.map */

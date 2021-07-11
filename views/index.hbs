@@ -1,6 +1,26 @@
 <form action="." method="post" enctype="multipart/form-data">
+
+<div class="card">
     <h3>Upload profile photo</h3>
 
     <input type="file" name="image" id="image" accept="image/*" />
     <input type="submit" value="Upload" class="btn btn-primary" />
 </form>
+
+    {{#each rows}}
+        {{#if this.profile_image}}
+            <img class="card-img" src="{{this.profile_image}}" alt="Profile Picture" />
+        {{else}}
+            <img class="card-img" src="/img/default.png" alt="Profile Picture" />
+    {{/if}}
+    <h2 class="card-title">{{this.name}}</h2>
+    <div class="card-job-title">{{this.job_title}}</div>
+    <div class="card-bio">
+        <p>
+            {{this.description}}
+        </p>
+        <button type="button" class="btn btn-primary">View Profile</button>
+    </div>
+    {{/each}}
+
+</div>
